@@ -17,7 +17,7 @@ The `use-video-previewer` is a custom hook designed to facilitate fast and effic
 
 ## Installation
 
-To use the custom React hook package in your project, you can install it via npm or yarn:
+To use the `use-video-previewer` package in your project, you can install it via npm or yarn:
 
 ```bash
 npm install use-video-previewer
@@ -64,9 +64,6 @@ function MyComponent() {
   );
 }
 ```
-
-Replace `useCustomHook` with the specific hook you want to use from the package.
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this code as permitted by the license. See the [LICENSE](LICENSE) file for more details.
