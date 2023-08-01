@@ -1,6 +1,6 @@
 {
   "name": "use-video-previewer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "devDependencies": {
     "@types/react": "^18.2.18",
@@ -34,5 +34,8 @@
     "typescript",
     "awesome-project"
   ],
-  "author": "Nurullah Kılıç (nurullahkilic)"
+  "author": "Nurullah Kılıç (nurullahkilic)",
+  "dependencies": {
+    "tslib": "^2.6.1"
+  }
 }
