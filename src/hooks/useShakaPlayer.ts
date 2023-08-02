@@ -55,7 +55,7 @@ const useShakaPlayer = ({
       await player.load(manifestUri);
 
       // This runs if the asynchronous load is successful.
-      console.log("The video has now been loaded!");
+      // console.log("The video has now been loaded!");
     } catch (e) {
       // onError is executed if the asynchronous load fails.
       onError(e);

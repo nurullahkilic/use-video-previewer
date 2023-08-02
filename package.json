@@ -1,6 +1,6 @@
 {
   "name": "use-video-previewer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "devDependencies": {
     "@types/react": "^18.2.18",

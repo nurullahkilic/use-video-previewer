@@ -12,15 +12,15 @@ const useVideoPreviewer: React.FC<IProps> = ({
   mediaUri,
   debounce,
 }) => {
-  console.log("useVideoPreviewer", mediaUri);
+  // console.log("useVideoPreviewer", mediaUri);
   const [videoElement, setVideoElement] = useState<React.ReactElement | any>(
     null
   );
 
   useEffect(() => {
-    console.log("Mounting useVideoPreviewer...");
+    // console.log("Mounting useVideoPreviewer...");
     return () => {
-      console.log("Unmounting useVideoPreviewer...");
+      // console.log("Unmounting useVideoPreviewer...");
     };
   }, []);
 
@@ -61,7 +61,7 @@ const PreviewerVideo: React.FC<IPreviewerVideoProps> = ({
   });
 
   useEffect(() => {
-    console.log("Mounting PreviewerVideo...");
+    // console.log("Mounting PreviewerVideo...");
     const debounceTimeout = setTimeout(() => {
       setIsShow(true);
       // @ts-ignore
@@ -70,7 +70,7 @@ const PreviewerVideo: React.FC<IPreviewerVideoProps> = ({
     setVideoElement(videoRef?.current);
 
     return () => {
-      console.log("Unmounting PreviewerVideo...");
+      // console.log("Unmounting PreviewerVideo...");
       setVideoElement(null);
       clearTimeout(debounceTimeout);
       setIsShow(false);
